@@ -1,3 +1,12 @@
+# Frontend Mentor - Advice generator app solution
+
+This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
+### Links
+
+- Solution URL: [https://github.com/xphstos/advice-generator-app](https://github.com/xphstos/advice-generator-app)
+- Live Site URL: [Frontend Mentor | Advice generator app](https://444ab7141a3c9ce7bef0978d6e735026ccf0a493.surge.sh/)
+
 ## Usage
 
 Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
