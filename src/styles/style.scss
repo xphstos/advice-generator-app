@@ -1,0 +1,14 @@
+@forward "./variables";
+@forward "./reset";
+
+body {
+  font: 700 1rem / 1.5 "Manrope", sans-serif;
+  background: var(--off-black);
+  color: var(--off-white);
+}
+
+#root {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+}

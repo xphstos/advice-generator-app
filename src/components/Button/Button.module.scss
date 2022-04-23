@@ -1,0 +1,19 @@
+@use "../../styles/mixins" as *;
+@use "../../styles/functions" as *;
+
+.button {
+  @include size(4rem);
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: v("theme");
+  border-radius: 4rem;
+  transition: box-shadow 0.2s ease;
+  cursor: pointer;
+  color: v("off-black");
+
+  &:hover {
+    box-shadow: 0 0 2rem var(--theme);
+  }
+}
