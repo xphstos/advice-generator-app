@@ -31,7 +31,7 @@ function Advice() {
           &ldquo;{advice()?.slip?.advice}&rdquo;
         </blockquote>
         <Divider />
-        <Button onClick={resetAndRefetch} />
+        <Button onClick={resetAndRefetch} label="Next advice" />
       </figure>
     </Show>
   );
